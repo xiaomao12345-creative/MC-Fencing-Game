@@ -4,10 +4,7 @@ Please run main.py while running mc
 
 
 Partial code:  
-while True:  
-        if mc.getBlock(ballPosX,ballPosY,ballPosZ) == block.AIR.id:  
-                mc.setBlocks(ballPosX,ballPosY,ballPosZ,block.WOOL.id,1)  
-
+  
         timeNow = datetime.datetime.now()  
         if preTime ! =timeNow.minute:  
                 preTime = timeNow.minute  
