@@ -3,7 +3,7 @@ This is the minecraft fencing game
 Please run main.py while running mc 
 
 
-Partial code:
+Partial code:  
 while True:  
         if mc.getBlock(ballPosX,ballPosY,ballPosZ) == block.AIR.id:  
                 mc.setBlocks(ballPosX,ballPosY,ballPosZ,block.WOOL.id,1)  
